@@ -1,0 +1,443 @@
+body{
+    background-image: url('signup_background.jpg');
+}
+
+.block{
+    background-color:rgb(233, 221, 221,.3);
+    width: 300px;
+    display: none;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 1;
+    /* pointer-events: none; */
+    z-index: 100;
+    position: relative;
+    transition: 1s;
+}
+
+#exit{
+    position: absolute;
+    right: 0;
+    border: none;
+    background-color: transparent;
+}
+#exit:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border-top-right-radius: 6px;
+}
+#exit:active{
+    background-color: brown;
+}
+
+.exit_instrn{
+    position: absolute;
+    background-color: rgb(57, 45, 45);
+    right: 0;
+    margin-top: 27px;
+    margin-right: -5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    padding: 2px 3px 2px 3px;
+    color: aliceblue;
+    opacity: 0;
+}
+.exit:hover .exit_instrn{
+    opacity: 1;
+}
+.signup{
+    font-size: 23px;
+    font-family: Arial;
+    color: rgb(36, 223, 36);
+    display: flex;
+    justify-content: center;
+}
+.sec_line{
+    margin-top: -15px;
+    font-family: Arial;
+    display:flex;
+    justify-content: center;
+    color:black;
+    opacity: 85%;
+}
+.frstname{
+    margin-bottom: 0px;
+    margin-left: 20px;
+    font-family: Arial;
+    opacity: 70%;
+}
+.first{
+    background-color: aliceblue;
+    width:270px;
+    margin-left: 12px;
+    border-radius: 10px;
+    height:22px;
+    border:none;
+    box-shadow: 2px 2px 8px gray;
+}
+.firstname_input{
+    width:240px;
+    margin-left: 12px;
+    background-color: aliceblue;
+    height:20px;
+    border:none;
+     
+}
+.firstname_input:focus{
+    outline: none;
+}
+.lastname{
+    margin-bottom: 0px;
+    margin-left: 20px;
+    font-family: Arial;
+    opacity: 70%;
+}
+.last{
+    background-color: aliceblue;
+    width:270px;
+    margin-left: 12px;
+    border-radius: 10px;
+    height:22px;
+    border:none;
+    box-shadow: 2px 2px 8px gray;
+}
+.lastname_input{
+    width:240px;
+    margin-left: 12px;
+    background-color: aliceblue;
+    height:20px;
+    border:none;
+}
+.lastname_input:focus{
+    outline:none;
+}
+.email{
+    margin-bottom: 0px;
+    margin-left: 20px;
+    font-family: Arial;
+    opacity: 70%;
+}
+.Email{
+    background-color: aliceblue;
+    width:270px;
+    margin-left: 12px;
+    border-radius: 10px;
+    height:22px;
+    border:none;
+    box-shadow: 2px 2px 8px gray;
+}
+.Email_input{
+    width:240px;
+    margin-left: 12px;
+    background-color: aliceblue;
+    height:20px;
+    border:none;
+}
+.Email_input:focus{
+    outline:none;
+}.para_password{
+    margin-bottom: 0px;
+    margin-left: 20px;
+    font-family: Arial;
+    opacity: 70%;
+}
+.pass{
+    background-color: aliceblue;
+    width:270px;
+    margin-left: 12px;
+    border-radius: 10px;
+    height:22px;
+    border:none;
+    box-shadow: 2px 2px 8px gray;
+}
+.input_pass{
+    width:240px;
+    margin-left: 12px;
+    background-color: aliceblue;
+    height:20px;
+    border:none;
+}
+.input_pass:focus{
+    outline: none;
+}
+
+.choose_sport_para{
+    margin-bottom: 0px;
+    margin-left: 20px;
+    font-family: Arial;
+    opacity: 70%;
+}
+
+.dropdown_list{
+    background-color: aliceblue;
+    width:270px;
+    margin-left: 12px;
+    border-radius: 10px;
+    height:22px;
+    border:none;
+    box-shadow: 2px 2px 8px gray;
+}
+
+#sport{
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    width:250px;
+    margin-left: 12px;
+    height:22px;
+    border:none;
+}
+#sport:hover{
+    cursor: pointer;
+}
+
+.click_here{
+    font-family: Arial;
+    opacity: 70%;
+    border: none;
+}
+
+.sex_para{
+    margin-bottom: 0px;
+    margin-left: 20px;
+    font-family: Arial;
+    opacity: 70%;
+    width: 11%;
+}
+.checkbox{
+    margin-left: 25%;
+    margin-top: -19px;
+}
+
+#sport{
+    outline: none;
+}
+
+#sport:hover{
+    cursor: pointer;
+}
+
+#male:hover{
+    cursor: pointer;
+}
+.female{
+    margin-left: 8%;
+}
+
+#female:hover{
+    cursor: pointer;
+} 
+
+.label_male{
+    font-family: Arial;
+    opacity: 70%;
+}
+.label_female{
+    font-family: Arial;
+    opacity: 70%;
+}
+.para_contact{
+    margin-bottom: 0px;
+    margin-left: 20px;
+    font-family: Arial;
+    opacity: 70%;
+    width: 11%;
+}
+.contact{
+    background-color: aliceblue;
+    width:270px;
+    margin-left: 12px;
+    border-radius: 10px;
+    height:22px;
+    border:none;
+    box-shadow: 2px 2px 8px gray;
+}
+.contact_input{
+    width:240px;
+    margin-left: 12px;
+    background-color: aliceblue;
+    height:20px;
+    border:none;
+}
+.contact_input:focus{
+    outline: none;
+}
+.pass_id{
+    margin-bottom: 0px;
+    margin-left: 20px;
+    font-family: Arial;
+    opacity: 70%;
+}
+.id{
+    background-color: aliceblue;
+    width:270px;
+    margin-left: 12px;
+    border-radius: 10px;
+    height:22px;
+    border:none;
+    box-shadow: 2px 2px 8px gray;
+}
+.input_id{
+    width:240px;
+    margin-left: 12px;
+    background-color: aliceblue;
+    height:20px;
+    border:none;
+}
+.input_id:focus{
+    outline:none;
+}
+.signupdiv{
+    display: block;
+    height: 50px;
+    align-content: center;
+}
+.signup_button{
+    font-family: Arial;
+    font-size: large;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    color: antiquewhite;
+    background-color: rgb(6, 239, 49);
+    z-index: index 1;
+    transition: .5s;
+}
+
+.signup_button:hover{
+    background-color: green;
+    transition: 0.5s;
+}
+
+.signup_button:active{
+    margin-top: 22.5px;
+    height: 25px;
+    font-size: medium;
+    width: 90px;
+    transition: .15s;
+}
+
+.shaurya_landing{
+    display:flex;
+    width: 400px;
+   
+}
+
+.front_page{
+    width: 400px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.risewithshaurya{
+    font-size: 30px;
+    color: goldenrod;
+}
+
+.intro{
+    font-size: 22px;
+    color: rgb(44, 191, 194);
+}
+
+.login{
+    width: 100px;
+    height: 40px;
+    margin-right: auto;
+    border-radius: 20px;
+    color: black;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    border-color: black;
+}
+
+.login:hover{
+    color:white;
+    background-color: black;
+    transition: 0.3s;
+    border-color: black;
+    cursor: pointer;
+}
+
+.login:active{
+    height: 30px;
+    font-size: medium;
+    width: 90px;
+    transition: .15s;
+    margin: 5px 0px 0px 5px;
+}
+.signup_front_page{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    color: black;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    border-color: black;
+}
+
+.signup_front_page:hover{
+    color:white;
+    background-color: black;
+    transition: 0.3s;
+    border-color: black;
+    cursor: pointer;
+}
+
+.signup_front_page:active{
+    height: 30px;
+    font-size: medium;
+    width: 90px;
+    transition: .15s;
+    margin: 5px 0px 0px 5px;
+    
+}
+
+.login_signup{
+    display: flex;
+}
+
+.login_container{
+    width: 100px;
+    margin-left: 20%;
+}
+
+.signup_container{
+    width: 100px;
+    margin-left: 10%;
+}
+
+.block.show{
+    pointer-events: auto;
+    opacity: 1;
+    display: block;
+}
+
+.front_page.hide{
+    display: none;
+}
+
+.counterPara{
+    color: rgb(45, 248, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-top: 40px;
+    margin-left: 90px;
+    display: inline-block;
+
+}
+#output{
+    color: rgb(242, 0, 234);
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
